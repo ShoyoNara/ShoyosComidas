@@ -1,0 +1,97 @@
+/* ---------------------------------------- Area Todos -----------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+    a {
+        text-decoration: none;
+        cursor: pointer;
+        opacity: 0.9;
+    }
+    
+    a:hover {
+        opacity: 1;
+    }
+
+/* ----------------------------------- Fecha Area todos --------------------------------------*/
+
+
+
+
+
+/* --------------------------------------- Fundinho e Parallax --------------------------------------*/
+
+.Meiozin {
+    background-image: url("img/BoliGatinha.gif");
+    height: 500vh;
+    width: 203.1vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(65, 42, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    }
+
+
+/* -------------------------------------- Fecha Fundinho e Parallax -------------------------------------------*/
+
+
+
+
+
+
+
+/* ---------------------------------------------- Começa Header ----------------------------------------*/
+
+.Meiozin header {
+    background-color: #ffa600;
+    width: 203.1vh;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 40px;
+    z-index: 9;
+}
+.Meiozin header img {
+    position: relative;
+    max-width: 100%;
+    left: 750px;
+    top: -20px;
+}
+
+
+.Meiozin header nav {
+    list-style: none;
+    display: flex;
+    position: relative;
+    top: 150px;
+    font-size: 22px;
+    
+}
+.Meiozin header li a {
+    color: #000000
+}
+.Meiozin header li {
+    margin: 10px 15px;
+    
+}
+.Meiozin header li:first-child {
+    margin-left: 0;
+}
+.Meiozin header li:last-child {
+    margin-right: 0;
+}
+
+/* ----------------------------------------------- fecha header ----------------------------------------- */

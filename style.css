@@ -1,0 +1,267 @@
+/* ---------------------------------------- Area Todos -----------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+/* ----------------------------------- Fecha Area todos --------------------------------------*/
+
+
+
+
+
+/* --------------------------------------- Fundinho e Parallax --------------------------------------*/
+}
+.Meiozin {
+    background-image: url("img/GifBolinhocha.gif");
+    height: 500vh;
+    width: 203.1vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(65, 42, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    }
+
+
+/* -------------------------------------- Fecha Fundinho e Parallax -------------------------------------------*/
+
+
+
+
+
+
+
+/* ---------------------------------------------- Começa Header ----------------------------------------*/
+
+.Meiozin header {
+    background-color: #9559f7;
+    width: 203.1vh;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 40px;
+    z-index: 9;
+}
+.Meiozin header img {
+    position: relative;
+    max-width: 100%;
+    left: 750px;
+    top: -20px;
+}
+
+
+.Meiozin header nav {
+    list-style: none;
+    display: flex;
+    position: relative;
+    top: 150px;
+    font-size: 22px;
+    
+}
+.Meiozin header li a {
+    color: #331d00
+}
+.Meiozin header li {
+    margin: 10px 15px;
+    
+}
+.Meiozin header li:first-child {
+    margin-left: 0;
+}
+.Meiozin header li:last-child {
+    margin-right: 0;
+}
+
+/* ----------------------------------------------- fecha header ----------------------------------------- */
+
+
+
+
+
+
+
+/* ------------------------------------------------- Começa Meio --------------------------------------------*/
+.Meiozin2  h1 {
+    font-size: 6rem;
+    margin-bottom:20px;
+    position: relative;
+    top: 100px;
+}
+
+.Meiozin2  h3 {
+    font-size: 3.5rem;
+    margin-bottom: 15px;
+    position: relative;
+    top: 100px;
+}
+.Meiozin2  p {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    position: relative;
+    top: 100px;
+}
+.Meiozin2  img{
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+.Min{
+    background-color: rgb(242, 175, 255);
+    background-attachment: fixed;
+    width: 100%;
+    height: 840px;
+}
+
+.Florzinha{
+    position: relative;
+    top: -810px;
+    left: 100px;
+    width: 570px;
+}
+
+
+/* --------------------------------------- Fecha Meio --------------------------------------*/
+
+
+
+
+/* ------------------------------ Cardapio do Dia -------------------------------------*/
+
+.Cardapio{
+
+    background-color: rgb(185, 147, 247);
+    background-attachment: fixed;
+    width: 203.1vh;
+    height: 150vh;
+    padding: 20px 20px;
+    border-radius: 50px 50px 50px 50px;
+    color: rgb(56, 43, 1);
+}
+
+.Cardapio h1 {
+    font-size: 6rem;
+    margin-bottom:20px;
+    position: relative;
+    top: 100px;
+
+}
+
+.Cardapio h3{
+    font-size: 2.9rem;
+    margin-bottom: 15px;
+    position: relative;
+    top: 100px;
+}
+
+.Cardapio p {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    position: relative;
+    top: 100px;
+
+}
+
+
+
+
+
+
+
+
+/* --------------------------------------- Botão e Clicks ---------------------------------------- */
+
+ a {
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+a:hover {
+    opacity: 1;
+}
+
+.btn {
+    background-color: rgb(36, 20, 3);
+    border-radius: 20px 50px 20px 50px;
+    color: #ececec;
+    padding: 20px 50px;
+    text-transform: uppercase;
+    position: relative;
+    top: 200px;
+    left: -270px;
+}
+
+/* --------------------------------------- Termina Botão e Clicks ---------------------------------------- */
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------- Medias --------------------------------*/
+@media (max-width: 700px) {
+    .Meiozin h1 {
+        font-size: 2.5rem;
+    }
+    .Meiozin h3 {
+        margin-top: 10px;
+        font-size: 1.5rem;
+    }
+}
+/* --------------------------------- Termina Medias -------------------------------*/
+
+
+
+
+
+
+/* ------------------------------ Footer ------------------------------------*/
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #510269;
+    padding: 50px 0;
+    align-items: center;
+    width: 203.1vh;
+    
+}
+footer ul{
+    display: flex;
+    margin-bottom: 25px;
+
+}
+footer ul li{
+    margin-right: 10px;
+    text-decoration: none;
+    list-style: none;
+
+}
+footer ul li:last-child{
+    margin-right: 0;
+}
+footer ul li a{
+    color: #ffffff;
+    font-size: 2rem;
+}
+footer p{
+    color:#ffffff;
+    text-align: center;
+}
+
+/* ---------------------------- Termina Footer ------------------------------------------ */
