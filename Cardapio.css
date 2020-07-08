@@ -1,4 +1,4 @@
-/* ---------------------------------------- Area Todos -----------------------------------*/
+/* ---------------------------------------------------------- Area Todos ----------------------------------------------------------------*/
 
 * {
     margin: 0;
@@ -17,17 +17,20 @@
         opacity: 1;
     }
 
-/* ----------------------------------- Fecha Area todos --------------------------------------*/
+/* -------------------------------------------------------- Fecha Area todos -------------------------------------------------------------*/
 
 
 
 
 
-/* --------------------------------------- Fundinho e Parallax --------------------------------------*/
+
+
+
+/* ----------------------------------------------------- Fundinho e Parallax -------------------------------------------------------------*/
 
 .Meiozin {
     background-image: url("img/BoliGatinha.gif");
-    height: 700vh;
+    height: 1500vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -42,7 +45,7 @@
     }
 
 
-/* -------------------------------------- Fecha Fundinho e Parallax -------------------------------------------*/
+/* ------------------------------------------------------ Fecha Fundinho e Parallax ---------------------------------------------------------------*/
 
 
 
@@ -50,7 +53,11 @@
 
 
 
-/* ---------------------------------------------- Começa Header ----------------------------------------*/
+
+
+
+
+/* ------------------------------------------------------------------ Começa Header -----------------------------------------------------------*/
 
 .Meiozin header {
     position: absolute;
@@ -95,7 +102,7 @@
     margin-right: 0;
 }
 
-/* ----------------------------------------------- fecha header ----------------------------------------- */
+/* ----------------------------------------------------------------- fecha header ------------------------------------------------------------- */
 
 
 
@@ -104,11 +111,688 @@
 
 
 
-/* ------------------------------ Footer ------------------------------------*/
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------- Começa Meio --------------------------------------------------------------*/
+.Meiozin2  h1 {
+    font-size: 6rem;
+    margin-bottom:20px;
+    position: relative;
+    top: 0px;
+    text-align: center;
+}
+
+.Meiozin2  h3 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    position: relative;
+    top: 0px;
+    text-align: center;
+}
+.Meiozin2  p {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    position: relative;
+    top: 0px;
+    text-align: center;
+}
+.Meiozin2  img{
+    position: relative;
+    top: 0px;
+    border-radius: 50px;
+}
+
+.Min{
+    background-color: rgb(255, 236, 126);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 150px 50px;
+    border-radius: 50px;
+    position: relative;
+    top: -1200px;
+    color: rgb(22, 13, 3);
+}
+
+/* ------------------------------------------------------------- Fecha Meio ------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------------- Cardapio ---------------------------------------------------------------------*/
+
+
+.Cardapio{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1800px 100px;
+    background-color: rgb(255, 254, 198);
+    top: 400px;
+    border-radius: 50px;
+}
+
+.Cardapio h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    color: #221401;
+    text-align: unset;
+    position: relative;
+    top: -1600px;
+
+}
+
+.Cardapio p {
+    margin-bottom: 20px;
+    color: #221401;
+    text-align: center;
+    position: relative;
+    top: -1600px;
+    font-size: 2rem;
+}
+
+.Cardapio img{
+    position: relative;
+    top: -1600px;
+    border-radius: 50px;
+}
+
+
+
+
+
+/*----------------------------------- Separandinho -----------------------------------*/
+.Divizinha{
+    background-color: rgb(255, 253, 152);
+    padding: 10px 500px;
+    position: relative;
+    top: -1400px;
+}
+.Divizinha2{
+    background-color: rgb(255, 253, 152);
+    padding: 10px 500px;
+    position: relative;
+    top: -1400px;
+}
+
+.Diviz{
+        position: relative;
+        top: 210px;
+}
+
+/*------------------------------- Fecha Separandinho ----------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------------------------Comidas--------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------- Dorayaki --------------------------------------------------*/
+
+
+.Dorayaki h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #221401;
+    text-align: unset;
+    position: relative;
+    top: -1200px;
+
+}
+
+.Dorayaki p {
+    margin-bottom: 20px;
+    color: #221401;
+    text-align: center;
+    position: relative;
+    top: -1200px;
+    font-size: 1.5rem;
+}
+
+.Dorayaki img{
+    position: relative;
+    top: -1200px;
+    border-radius: 50px;
+}
+
+.Cardapio h3 {
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+    color: #221401;
+    text-align: center;
+    position: relative;
+    top: -1200px;
+}
+
+
+.btn{
+    background-color: rgb(190, 112, 10);
+    border-radius: 20px 50px 20px 50px;
+    color: #ececec;
+    padding: 20px 50px;
+    text-transform: uppercase;
+    position: relative;
+    top: -1150px;
+}
+
+/* ----------------------------------------- Fecha Dorayaki ---------------------------------*/
+
+
+
+
+
+
+
+/*------------------------------------ Mochi ------------------------------*/
+
+
+.Mochi h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #221401;
+    text-align: unset;
+    position: relative;
+    top: -1000px;
+
+}
+
+.Mochi p {
+    margin-bottom: 20px;
+    color: #221401;
+    text-align: center;
+    position: relative;
+    top: -1000px;
+    font-size: 1.5rem;
+}
+
+.Mochi img{
+    position: relative;
+    top: -1000px;
+    border-radius: 50px;
+}
+
+.Mochi h3 {
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+    color: #221401;
+    text-align: center;
+    position: relative;
+    top: -1000px;
+}
+
+
+.btn2{
+    background-color: rgb(190, 112, 10);
+    border-radius: 20px 50px 20px 50px;
+    color: #ececec;
+    padding: 20px 50px;
+    text-transform: uppercase;
+    position: relative;
+    top: -950px;
+}
+/*----------------------------- final Mochi------------------------------------*/
+
+
+
+
+/*----------------------------- Rocambole ---------------------------------*/
+.Rocambole h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #221401;
+    text-align: unset;
+    position: relative;
+    top: -800px;
+
+}
+
+.Rocambole p {
+    margin-bottom: 20px;
+    color: #221401;
+    text-align: center;
+    position: relative;
+    top: -800px;
+    font-size: 1.5rem;
+}
+
+.Rocambole img{
+    position: relative;
+    top: -800px;
+    border-radius: 50px;
+    width: 800px;
+}
+
+.Rocambole h3 {
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+    color: #221401;
+    text-align: center;
+    position: relative;
+    top: -800px;
+}
+
+
+.btn3{
+    background-color: rgb(190, 112, 10);
+    border-radius: 20px 50px 20px 50px;
+    color: #ececec;
+    padding: 20px 50px;
+    text-transform: uppercase;
+    position: relative;
+    top: -750px;
+}
+
+/*-------------------------------- Fecha Rocambole -------------------------*/
+
+
+
+
+
+
+
+/*-------------------------------- Sanshoku Dango -----------------------------*/
+
+
+
+.Dango h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #221401;
+    text-align: unset;
+    position: relative;
+    top: -600px;
+
+}
+
+.Dango p {
+    margin-bottom: 20px;
+    color: #221401;
+    text-align: center;
+    position: relative;
+    top: -600px;
+    font-size: 1.5rem;
+}
+
+.Dango img{
+    position: relative;
+    top: -600px;
+    border-radius: 50px;
+}
+
+.Dango h3 {
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+    color: #221401;
+    text-align: center;
+    position: relative;
+    top: -600px;
+}
+
+
+.btn4{
+    background-color: rgb(190, 112, 10);
+    border-radius: 20px 50px 20px 50px;
+    color: #ececec;
+    padding: 20px 50px;
+    text-transform: uppercase;
+    position: relative;
+    top: -550px;
+}
+
+
+
+/*--------------------------- Fecha Sanshoku Dango --------------------------*/
+
+
+
+
+
+
+
+
+/*---------------------------------------------- fecha comidas ------------------------------------------------*/
+
+
+
+
+
+
+
+/*-------------------------------------------------- Bebidas -----------------------------------------------*/
+
+
+
+
+
+
+
+
+/*----------------------------------- Separandinho -----------------------------------*/
+.Divizinha3{
+    background-color: rgb(255, 253, 152);
+    padding: 10px 500px;
+    position: relative;
+    top: -300px;
+}
+.Divizinha4{
+    background-color: rgb(255, 253, 152);
+    padding: 10px 500px;
+    position: relative;
+    top: -300px;
+}
+
+.Diviz2{
+        position: relative;
+        top: 1310px;
+}
+
+/*------------------------------- Fecha Separandinho ----------------------------------*/
+
+
+
+
+
+/*------------------------------- Cafézinho -----------------------------*/
+
+
+.Café h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #221401;
+    text-align: unset;
+    position: relative;
+    top: -100px;
+
+}
+
+.Café p {
+    margin-bottom: 20px;
+    color: #221401;
+    text-align: center;
+    position: relative;
+    top: -100px;
+    font-size: 1.5rem;
+}
+
+.Café img{
+    position: relative;
+    top: -100px;
+    border-radius: 50px;
+}
+
+.Café h3 {
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+    color: #221401;
+    text-align: center;
+    position: relative;
+    top: -100px;
+}
+
+
+.btn5{
+    background-color: rgb(190, 112, 10);
+    border-radius: 20px 50px 20px 50px;
+    color: #ececec;
+    padding: 20px 50px;
+    text-transform: uppercase;
+    position: relative;
+    top: -50px;
+}
+
+
+
+/*---------------------------- Termina Cafézinho ---------------------------*/
+
+
+
+
+
+
+/*------------------------- Cházinho -----------------------------*/
+
+
+.Chá h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #221401;
+    text-align: unset;
+    position: relative;
+    top: 100px;
+
+}
+
+.Chá p {
+    margin-bottom: 20px;
+    color: #221401;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    font-size: 1.5rem;
+}
+
+.Chá img{
+    position: relative;
+    top: 100px;
+    border-radius: 50px;
+}
+
+.Chá h3 {
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+    color: #221401;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+
+.btn6{
+    background-color: rgb(190, 112, 10);
+    border-radius: 20px 50px 20px 50px;
+    color: #ececec;
+    padding: 20px 50px;
+    text-transform: uppercase;
+    position: relative;
+    top: 150px;
+}
+
+
+
+
+/*------------------------ Termina Cházinho--------------------------*/
+
+
+
+
+
+
+/*--------------------- Chá De Bolhas ----------------------------*/
+
+
+.chadebolhas h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #221401;
+    text-align: unset;
+    position: relative;
+    top: 300px;
+
+}
+
+.chadebolhas p {
+    margin-bottom: 20px;
+    color: #221401;
+    text-align: center;
+    position: relative;
+    top: 300px;
+    font-size: 1.5rem;
+}
+
+.chadebolhas img{
+    position: relative;
+    top: 300px;
+    border-radius: 50px;
+}
+
+.chadebolhas h3 {
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+    color: #221401;
+    text-align: center;
+    position: relative;
+    top: 300px;
+}
+
+
+.btn7{
+    background-color: rgb(190, 112, 10);
+    border-radius: 20px 50px 20px 50px;
+    color: #ececec;
+    padding: 20px 50px;
+    text-transform: uppercase;
+    position: relative;
+    top: 350px;
+}
+
+
+
+
+/*-------------------- Termina Chá De Bolhas ------------------------*/
+
+
+
+
+
+
+
+
+
+/*------------------------------------------ Fecha bebidas -----------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------- Termina Cardapio -------------------------------------------------*/
+
+
+
+
+
+
+
+/*---------------------- Duvidas -----------------------*/
+
+.btn8 {
+    background-color: rgb(245, 122, 8);
+    border-radius: 20px 50px 20px 50px;
+    color: #ececec;
+    padding: 20px 50px;
+    text-transform: uppercase;
+    position: relative;
+    top: 0px;
+}
+
+.Duvidas h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #221401;
+    text-align: unset;
+    position: relative;
+    top: 0px;
+
+}
+
+.Duvidas p {
+    max-width: 800px;
+    margin-bottom: 20px;
+    color: #221401;
+    text-align: center;
+    position: relative;
+    top: 0px;
+    font-size: 1.5rem;
+}
+
+.Duvidas img{
+    position: relative;
+    top: 0px;
+}
+
+.Duvidas {
+    background-color: rgb(252, 227, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 050px 500px;
+    position: relative;
+    top: 800px;
+    border-radius: 50px;
+}
+
+/* ---------------------- Fim Duvidas -----------------------*/
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------------- Footer -------------------------------------------------------------*/
 footer{
     display: flex;
     flex-direction: column;
-    background-color: #510269;
+    background-color: #c97c19;
     padding: 50px 0;
     align-items: center;
     
@@ -136,4 +820,4 @@ footer p{
     text-align: center;
 }
 
-/* ---------------------------- Termina Footer ------------------------------------------ */
+/* ------------------------------------------------------- Termina Footer --------------------------------------------------------------------- */
