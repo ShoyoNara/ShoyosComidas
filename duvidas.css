@@ -27,8 +27,7 @@
 
 .Meiozin {
     background-image: url("img/Duvidasgif.gif");
-    height: 500vh;
-    width: 203.1vh;
+    height: 700vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -54,21 +53,19 @@
 /* ---------------------------------------------- Começa Header ----------------------------------------*/
 
 .Meiozin header {
-    background-color: #c96284;
-    width: 203.1vh;
     position: absolute;
-    top: 0px;
-    left: 0px;
     display: flex;
     justify-content: space-between;
-    padding: 40px 40px;
+    padding: 0px 650px;
     z-index: 9;
+    top: 0px;
 }
+
 .Meiozin header img {
     position: relative;
     max-width: 100%;
-    left: 750px;
     top: -20px;
+    left: 200px;
 }
 
 
@@ -76,12 +73,16 @@
     list-style: none;
     display: flex;
     position: relative;
-    top: 150px;
+    top: 250px;
     font-size: 22px;
+    right: 200px;
     
 }
 .Meiozin header li a {
-    color: #000000
+    color: #000000;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: rgb(255, 133, 133);
 }
 .Meiozin header li {
     margin: 10px 15px;
@@ -95,3 +96,48 @@
 }
 
 /* ----------------------------------------------- fecha header ----------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------ Footer ------------------------------------*/
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #510269;
+    padding: 50px 0;
+    align-items: center;
+    
+}
+footer ul{
+    display: flex;
+    margin-bottom: 25px;
+
+}
+footer ul li{
+    margin-right: 10px;
+    text-decoration: none;
+    list-style: none;
+
+}
+footer ul li:last-child{
+    margin-right: 0;
+}
+footer ul li a{
+    color: #ffffff;
+    font-size: 2rem;
+}
+footer p{
+    color:#ffffff;
+    text-align: center;
+}
+
+/* ---------------------------- Termina Footer ------------------------------------------ */

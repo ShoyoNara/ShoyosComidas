@@ -16,9 +16,8 @@
 /* --------------------------------------- Fundinho e Parallax --------------------------------------*/
 }
 .Meiozin {
-    background-image: url("img/GifBolinhocha.gif");
+    background-image: url("img/GifHome.gif");
     height: 700vh;
-    width: 203.1vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -44,21 +43,18 @@
 /* ---------------------------------------------- Começa Header ----------------------------------------*/
 
 .Meiozin header {
-    background-color: #9559f7;
-    width: 203.1vh;
     position: absolute;
-    top: 0px;
-    left: 0px;
     display: flex;
     justify-content: space-between;
-    padding: 40px 40px;
+    padding: 0px 650px;
     z-index: 9;
+    top: 0px;
 }
 .Meiozin header img {
     position: relative;
     max-width: 100%;
-    left: 750px;
     top: -20px;
+    left: 200px;
 }
 
 
@@ -66,12 +62,16 @@
     list-style: none;
     display: flex;
     position: relative;
-    top: 150px;
+    top: 250px;
     font-size: 22px;
-    
+    right: 200px;
 }
+
 .Meiozin header li a {
-    color: #331d00
+    color: #1d1203;
+    background-color: rgb(232, 157, 255);
+    padding: 10px 20px;
+    border-radius: 20px;
 }
 .Meiozin header li {
     margin: 10px 15px;
@@ -97,7 +97,7 @@
     font-size: 6rem;
     margin-bottom:20px;
     position: relative;
-    top: -1100px;
+    top: 0px;
     text-align: center;
 }
 
@@ -105,30 +105,31 @@
     font-size: 3.5rem;
     margin-bottom: 15px;
     position: relative;
-    top: -1100px;
+    top: 0px;
     text-align: center;
 }
 .Meiozin2  p {
     font-size: 2rem;
     margin-bottom: 15px;
     position: relative;
-    top: -1100px;
+    top: 0px;
     text-align: center;
 }
 .Meiozin2  img{
     position: relative;
-    top: -1100px;
+    top: 0px;
 }
 
 .Min{
-    background-color: rgb(226, 133, 245);
+    background-color: rgb(237, 176, 255);
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 1200px 300px;
+    padding: 150px 100px;
+    border-radius: 50px;
     position: relative;
-    top: -100px;
-    border-radius: 0px 0px 0px 0px;
+    top: -350px;
+    color: rgb(22, 13, 3);
 }
 
 /* --------------------------------------- Fecha Meio --------------------------------------*/
@@ -150,13 +151,13 @@ a:hover {
 }
 
 .btn {
-    background-color: rgb(36, 20, 3);
+    background-color: rgb(63, 9, 70);
     border-radius: 20px 50px 20px 50px;
     color: #ececec;
     padding: 20px 50px;
     text-transform: uppercase;
     position: relative;
-    top: -1080px;
+    top: 100px;
 }
 
 /* --------------------------------------- Termina Botão e Clicks ---------------------------------------- */
@@ -170,17 +171,17 @@ a:hover {
 
 /* -------------------------------------------- section text --------------------------------------------------*/
 
-.conheca-o-hotel {
+.Cardapio {
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 600px 160px;
+    padding: 600px 600px;
     background-color: rgb(245, 193, 247);
-    top: -1900px;
+    top: 200px;
 }
 
-.conheca-o-hotel h1 {
+.Cardapio h1 {
     font-size: 2rem;
     margin-bottom: 20px;
     color: #221401;
@@ -189,7 +190,7 @@ a:hover {
     top: -500px;
 
 }
-.conheca-o-hotel h3 {
+.Cardapio h3 {
     font-size: 1.2rem;
     margin-bottom: 20px;
     color: #221401;
@@ -200,8 +201,7 @@ a:hover {
 
 }
 
-.conheca-o-hotel p {
-    max-width: 800px;
+.Cardapio p {
     margin-bottom: 20px;
     color: #221401;
     text-align: center;
@@ -210,55 +210,13 @@ a:hover {
 
 }
 
-.conheca-o-hotel img{
+.Cardapio img{
     position: relative;
     top: -550px;
 
 
 }
 
-
-
-
-
-
-
-
-/* ------------------------------ Cardapio do Dia -------------------------------------*/
-
-.Cardapio{
-
-    background-color: rgb(185, 147, 247);
-    background-attachment: fixed;
-    width: 203.1vh;
-    height: 150vh;
-    padding: 20px 20px;
-    border-radius: 50px 50px 50px 50px;
-    color: rgb(56, 43, 1);
-}
-
-.Cardapio h1 {
-    font-size: 6rem;
-    margin-bottom:20px;
-    position: relative;
-    top: 100px;
-
-}
-
-.Cardapio h3{
-    font-size: 2.9rem;
-    margin-bottom: 15px;
-    position: relative;
-    top: 100px;
-}
-
-.Cardapio p {
-    font-size: 2rem;
-    margin-bottom: 15px;
-    position: relative;
-    top: 100px;
-
-}
 
 
 
@@ -287,6 +245,57 @@ a:hover {
 /* --------------------------------- Termina Medias -------------------------------*/
 
 
+/*---------------------- Duvidas -----------------------*/
+
+.btn2 {
+    background-color: rgb(125, 14, 177);
+    border-radius: 20px 50px 20px 50px;
+    color: #ececec;
+    padding: 20px 50px;
+    text-transform: uppercase;
+    position: relative;
+    top: 0px;
+}
+
+.Duvidas h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #221401;
+    text-align: unset;
+    position: relative;
+    top: 0px;
+
+}
+
+.Duvidas p {
+    max-width: 800px;
+    margin-bottom: 20px;
+    color: #221401;
+    text-align: center;
+    position: relative;
+    top: 0px;
+    font-size: 1.5rem;
+}
+
+.Duvidas img{
+    position: relative;
+    top: 0px;
+}
+
+.Duvidas {
+    background-color: rgb(226, 133, 245);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 050px 400px;
+    position: relative;
+    top: 800px;
+    border-radius: 50px;
+}
+
+/* ---------------------- Fim Duvidas -----------------------*/
+
+
 
 
 
@@ -298,7 +307,6 @@ footer{
     background-color: #510269;
     padding: 50px 0;
     align-items: center;
-    width: 203.1vh;
     
 }
 footer ul{
