@@ -20,8 +20,44 @@
         <li><a href="duvidas.html">Dúvidas</a></a></li>
 
     </nav>
-
     </header>
+
+
+<div class="Novito">
+    <form class="formulario" method="post"> 
+        <p> Envie uma mensagem preenchendo o formulário abaixo<br> (Informe seu problema)</p>
+        
+        <div class="field">
+            <label for="nome">Seu Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome*" required>
+        </div>
+        
+        <div class="field">
+            <label for="telefone">Seu Telefone:</label>
+            <input type="text" id="telefone" name="telefone" placeholder="Digite seu Telefone">
+        </div>
+ 
+        <div class="field">
+            <label for="email">Seu E-Mail:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu E-Mail*" required>
+        </div>        
+        <div class="field radiobox">
+            <span>Esta gostando das comidas/bebidas ??</span>
+            <input type="radio" name="novidades" id="sim" value="sim" checked><label for="sim">Sim</label>
+            <input type="radio" name="novidades" id="nao" value="nao"><label for="nao">Não</label>
+        </div>
+        <div class="field">
+            <label for="mensagem">Envie sua mensagem:</label>
+            <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required></textarea>
+        </div>
+ 
+        <input type="submit" name="acao" value="Enviar">
+    </form>
+</div>
+
+
+
+
     </div>
 
 
@@ -44,7 +80,8 @@
             <li><a href=""><i class="fab fa-twitch"></i></a></li>
         </ul>
     
-    
+        <P>Localização: Canoas(RS), ParkShopping Canoas, Av. Farroupilha </P><br>
+        <p>Telefone: (51)995632312</p>
     
     </footer>
     

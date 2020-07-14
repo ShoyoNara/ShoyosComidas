@@ -110,7 +110,19 @@
 
 
 
+/*-------------*/
 
+
+
+
+@media screen and 
+(min-height: 300vh) and 
+(max-height: 640vh){}
+
+@media only screen and (max-device-height: 900vh) {
+    /* .menu { width:600px; } */
+    }
+/*----------*/
 
 
 

@@ -13,11 +13,35 @@
 
 
 
+
+/*----------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------------------*/
+
+
+
+
+
+
+
+
 /* --------------------------------------- Fundinho e Parallax --------------------------------------*/
 }
 .Meiozin {
     background-image: url("img/GifHome.gif");
-    height: 700vh;
+    height: 900vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -35,7 +59,7 @@
 /* -------------------------------------- Fecha Fundinho e Parallax -------------------------------------------*/
 
 
-/*------------------------------------- Slider --------------------------------------------*/
+
 
 /* ---------------------------------------------- Começa Header ----------------------------------------*/
 
@@ -79,6 +103,15 @@
 }
 .Meiozin header li:last-child {
     margin-right: 0;
+}
+
+.Monata{
+
+    position: relative;
+    top: -1000px;    
+
+
+
 }
 
 /* ----------------------------------------------- fecha header ----------------------------------------- */
@@ -148,7 +181,7 @@ a:hover {
     opacity: 1;
 }
 
-.btn {
+.btn1 {
     background-color: rgb(63, 9, 70);
     border-radius: 20px 50px 20px 50px;
     color: #ececec;
