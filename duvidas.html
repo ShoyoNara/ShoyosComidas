@@ -10,7 +10,7 @@
     <div class="Meiozin">
     
     <header>
-        <img class="Logo" src="img/Saturno-removebg-preview.png" alt="Simbolo"> 
+        <img class="Logo" src="img/Logo4.jpg" alt="Simbolo"> 
  
     <nav>
 
@@ -25,7 +25,7 @@
 
 <div class="Novito">
     <form class="formulario" method="post"> 
-        <p> Envie uma mensagem preenchendo o formulário abaixo<br> (Informe seu problema)</p>
+        <p> Envie uma mensagem preenchendo o formulário abaixo</p><p>(Informe seu problema)</p>
         
         <div class="field">
             <label for="nome">Seu Nome:</label>
@@ -55,7 +55,24 @@
     </form>
 </div>
 
+<script>
+    function typeWriter(elemento) {
+      const textoArray = elemento.innerHTML.split('');
+      elemento.innerHTML = '';
+      textoArray.forEach((letra, i) => {
+        setTimeout(() => elemento.innerHTML += letra, 75 * i);
+      });
+    }
 
+    const titulo = document.querySelector('p');
+    typeWriter(titulo);
+
+
+
+
+
+
+  </script>
 
 
     </div>

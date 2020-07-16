@@ -42,9 +42,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    text-align: center;
-
+    flex-direction: initial;
+    text-align: initial;
     }
 
 
@@ -67,14 +66,17 @@
     display: flex;
     justify-content: space-between;
     padding: 0px 650px;
-    z-index: 9;
     top: 0px;
+    flex-direction: initial;
 }
 .Meiozin header img {
     position: relative;
     max-width: 100%;
-    top: -20px;
+    top: 10px;
     left: 200px;
+    width: 200px;
+    height: 200px;
+    border-radius: 500px;
 }
 
 
@@ -85,6 +87,7 @@
     top: 250px;
     font-size: 22px;
     right: 200px;
+    flex-direction: initial;
     
 }
 .Meiozin header li a {

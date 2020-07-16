@@ -16,7 +16,7 @@
 
 
     <header>
-        <img class="Logo" src="img/Saturno-removebg-preview.png" alt="Simbolo"> 
+        <img class="Logo" src="img/LogoHome.jpg" alt="logo"> 
  
     <nav>
 
@@ -96,10 +96,28 @@
     <div class="Min">
     <h1>Shoyo's Shokuji</h1>
     <h3>Seja Bem-Vindo ao Site do Shoyo's Shokuji</h3>
-    <p>Aproveite as comidas mais kawaiis e oishís, compre, coma ao máximo e não deixe pra depois <br> 
+    <p>Aproveite as comidas mais kawaiis e oishís, compre, coma ao máximo e não deixe pra depois<br>
     Arigato Gozaimasu ^^</p>
     <img src="img/Bemvindo.gif" alt="">
     <a class="btn1" href="cardapio.html">Compre Aqui</a>
+
+    <script>
+      function typeWriter(elemento) {
+        const textoArray = elemento.innerHTML.split('');
+        elemento.innerHTML = '';
+        textoArray.forEach((letra, i) => {
+          setTimeout(() => elemento.innerHTML += letra, 75 * i);
+        });
+      }
+
+      const titulo = document.querySelector('h1');
+      typeWriter(titulo);
+
+      typeWriter(document.querySelector('h3'))
+
+
+
+    </script>
     
     
     </section>
@@ -118,6 +136,7 @@
     </p>
     <a class="btn3" href="cardapio.html">Compre Aqui</a>
     </div>
+
 
     <div class="bebida">
     <img src="img/ChadeBolhas.jpg" alt="ChadeBolhas">

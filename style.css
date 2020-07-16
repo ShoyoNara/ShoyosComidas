@@ -74,8 +74,11 @@
 .Meiozin header img {
     position: relative;
     max-width: 100%;
-    top: -20px;
+    top: 10px;
     left: 200px;
+    width: 200px;
+    height: 200px;
+    border-radius: 500px;
 }
 
 
@@ -145,6 +148,9 @@
     top: 0px;
     text-align: center;
 }
+
+
+
 .Meiozin2  img{
     position: relative;
     top: 0px;
